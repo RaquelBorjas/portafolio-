@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+:root{
+	--menu-hover:#E1A37E;
+	--color-verde:#0B312A;
+	
+}
+
+body{
+	font-size: 14px;
+	line-height: 1.8;
+	font-family: "Pacifico", sans-serif;
+	
+}
+
+.titulos{
+	color: var(--color-verde);
+	text-shadow: none !important;	
+}
+header{
+	background-color:var(--color-verde);
+}
+header img{
+	height:30px;
+}
+
+/** Acerca **/
+
+#acerca-de-mi h6{
+	font-size: 60px;
+	font-weight: 800;
+	text-align: center;
+	padding: 0% 5%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#acerca-de-mi p{
+	font-size: 20px;
+	font-weight: 200;
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	
+}
+
+/** Servicios **/
+
+#servicios{
+	background-color: antiquewhite;
+	padding: 3%;
+}
+
+
+#servicios h2{
+	text-align: center;
+	font-size: 20px;
+	color: var(--color-verde);
+}
+
+.icon-contacto{
+	font-size: 90px;
+	width: 150px;
+	height: 150px;
+	line-height: 180px;
+	color: var(--color-verde);
+}
+
+.la-adobe{
+	text-align: left;
+}
+/** Portafolio **/
+
+
+#portafolio{
+	padding: 3% 10%;
+	background-image: url("../img/fondo.jpg");
+}
+
+/** Contacto **/
+
+#contacto{
+	background-image: url("../img/plantas.jpg");
+	padding: 5% 20%;
+}
+
+.titulos-contacto{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 800;
+	text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.btn-portafolio{
+	background-color: var(--menu-hover);
+	border: none;
+	padding: 20px 40px;
+	border-radius: 10px;
+	font-size: 20px;
+	color: #FFFFFF;
+
+}
+
+.btn-portafolio:hover{
+	background-color: var(--color-verde);
+	color: #FFFFFF;
+
+}
+
+
+footer{
+	background-color: var(--color-verde);
+	color: #bababa;
+	padding: 2%;
+	text-align: center;
+	font-size: 15px;
+}
+
+footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.logo-moth{
+	height: 70px;
+}
+
+
+/*celular*/
+@media (max-width: 601px) { 
+	
+	
+	.titulo-blanco{
+		font-size: 10px;
+	}
+	
+	
+	.icon-contacto{
+	padding-left: 150px;
+}
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
